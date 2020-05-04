@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+ html, body{
+ 	font-family: 'Ponnala', sans-serif;
+ }
+
+ * p{
+ 	line-height: 1.8;
+ }
+
+/* Navigation */
+
+.navigation{
+ background-color: #3F3F3F;
+ height: 100px;
+}
+
+.navigation-wrapper{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+.navigation img{
+	height: 50px;
+	width: 150px;	
+}
+
+.navigation-links{
+	display: flex;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ffffff;
+}
+.navigation-links li{
+	padding-left: 68px;
+}
+
+.navigation-links li a{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation-links li a:hover{
+	color: white;
+	border-bottom: 1px solid #fff;
+
+}
+
+.active {
+	border-bottom: 1px solid #fff;
+}
+
+/* Fitness and Your_body part */
+.green-bg{ 
+	width: 100%;
+	background-color: #8CF804;
+}
+
+.fitness{
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 60px;
+
+}
+
+.fitness-text,
+.your-body-text{
+	background-color: #fff;
+	text-align: center;
+}
+
+.fitness-text h4,
+.your-body-text h4{
+	color: #D91F1F;
+	padding-bottom: 0;
+
+}
+
+.fitness-text h1,
+.your-body-text h1{
+	color: #8CF804
+}
+
+.fitness-text p,
+.your-body-text p{
+	font-size: 18px;
+	color: #3F3F3F;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.fitness-text a,
+.your-body-text a{
+	font-size: 24px;
+	color: #8CF804;
+}
+
+.your-body{	
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+/* Description part */
+.description{
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #fff;
+}
+
+.icon{
+	width: 45px;
+	height: 45px;
+}
+
+.resources p,
+.training p,
+.connect p{
+  width: 100%;
+
+}
+
+.resources a,
+.training a,
+.connect a{
+  color: #fff;
+  font-weight: bold;
+
+}
+
+/* Footer*/
+
+footer{
+	background-color: #000000;
+	color: #fff;
+
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer-description{
+	width: 67%;
+}
+
+.footer-description p{
+	width: 55%;
+}
+
+.footer-social{
+	width: 33%;
+}
+
+.footer-icons{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	font-size:25px;
+	cursor: pointer;
+}
+
+  .fa{
+  padding: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+
+}
+
+.fa-facebook{
+	background-color: #5B76D4;
+
+}
+.fa-twitter{
+	background-color: #41BBFF;
+}
+
+.fa-youtube{
+	background-color: #FA0404;
+}
+
+.fa-linkedin{
+	background-color: #2931F2;
+
+}
